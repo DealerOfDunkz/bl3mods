@@ -231,10 +231,6 @@ SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/Vending
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[5].Weight.BaseValueScale,0,,0.25
 
 
-
-# Increasing Base Melee Damage
-SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerMeleeDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,45
-
 # Increasing Base Slam Damage
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerGroundSlamDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,55
 
@@ -2680,12 +2676,6 @@ SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/_Shared/_Desig
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,CoV,EquipTimeScale_68_391D5B8C4D0759E7FA619A8947BE0458,0,,0.5
 
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,CoV,PutDownTimeScale_69_AA52E4FF4CF2E2BF8CEAC2B9E54CB3DA,0,,0.5
-
-
-# Buffing Grenades (Credit to Grimm)
-
-#Overall Damage
-SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerGrenadeModDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,195.0
 
 
 # EARLY BLOOMER (MAKES EVERYTHING AVAILABLE ON A NEW GAME)
