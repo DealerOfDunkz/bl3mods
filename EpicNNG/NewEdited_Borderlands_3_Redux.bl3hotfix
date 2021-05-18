@@ -84,98 +84,10 @@ SparkPatchEntry,(1,1,0,),/Game/GameData/Weapons/Ammo/ResourcePool_Ammo_AssaultRi
 
 # WORLD DROPS
 
-# Aligning World Drops to be like TPS // SspyR
-SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/RarityWeighting/DataTable_ItemRarity.DataTable_ItemRarity,Common,BaseWeight_7_F9F7E65D4BC13F8CB481169592B2D190,0,,-5.5
-
-# Aligning World Drops to be like TPS // SspyR
-SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/RarityWeighting/DataTable_ItemRarity.DataTable_ItemRarity,Uncommon,BaseWeight_7_F9F7E65D4BC13F8CB481169592B2D191,0,,0.8
-
-# Aligning World Drops to be like TPS // SspyR
-SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/RarityWeighting/DataTable_ItemRarity.DataTable_ItemRarity,Rare,BaseWeight_7_F9F7E65D4BC13F8CB481169592B2D191,0,,0.30
-
-# Aligning World Drops to be like TPS // SspyR
-SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/RarityWeighting/DataTable_ItemRarity.DataTable_ItemRarity,VeryRare,BaseWeight_7_F9F7E65D4BC13F8CB481169592B2D191,0,,0.099
-
-# Aligning World Drops to be like TPS // SspyR
-SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/RarityWeighting/DataTable_ItemRarity.DataTable_ItemRarity,Legendary,BaseWeight_7_F9F7E65D4BC13F8CB481169592B2D191,0,,0.00075
 
 # Adjusting Veterans Machine Pool to Only Have Quest Rewards // SsPyr Code
 SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl.DA_ItemPool_VendingMachine_CrazyEarl,BalancedItems,0,,((ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards.DA_ItemPool_VendingMachine_CrazyEarl_MissionRewards"',Weight=(BaseValueConstant=3,DataTableValue=(),BaseValueAttribute=GbxAttributeData'"/Game/GameData/Loot/RarityWeighting/Att_RarityWeight_03_Rare.Att_RarityWeight_03_Rare"'BaseValueScale=0.3),Quantity=(BaseValueConstant=15.0)))
 
-
-# Adjusting Vending Machine Pool
-
-# Adjusting Weapon Machine Pool
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[0].Weight.BaseValueScale,0,,0.1
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,1.5
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,1.0
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0.25
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,0
-
-
-# Adjusting Weapon of the Day Machine Pool
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons_OfTheDay.DA_ItemPool_VendingMachine_Weapons_OfTheDay,BalancedItems.BalancedItems[0].Weight.BaseValueScale,0,,1.5
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons_OfTheDay.DA_ItemPool_VendingMachine_Weapons_OfTheDay,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,0.75
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons_OfTheDay.DA_ItemPool_VendingMachine_Weapons_OfTheDay,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,0.1
-
-# Adjusting Grenade Machine Pool
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[0].Weight.BaseValueScale,0,,2.0
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,1.5
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,1.0
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0.25
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,0
-
-# Adjusting Grenade of the Day Machine Pool
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Ammo_OfTheDay.DA_ItemPool_VendingMachine_Ammo_OfTheDay,BalancedItems.BalancedItems[0].Weight.BaseValueScale,0,,1.5
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Ammo_OfTheDay.DA_ItemPool_VendingMachine_Ammo_OfTheDay,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,0.75
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Ammo_OfTheDay.DA_ItemPool_VendingMachine_Ammo_OfTheDay,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,0.1
-
-# Adjusting Shield Machine Pool
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[0].Weight.BaseValueScale,0,,2.0
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,1.5
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,1.0
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0.25
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,0
-
-# Adjusting Class Mods Machine Pool
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[0].Weight.BaseValueScale,0,,0.1
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,2.5
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,2.0
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0.25
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,0.0
-
-# Adjusting Shield of the Day Machine Pool
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[0].Weight.BaseValueScale,0,,1.0
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,10.0
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,5.0
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,1.75
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,1.0
-
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[5].Weight.BaseValueScale,0,,0.25
 
 
 # Increasing Base Slam Damage
@@ -2391,75 +2303,6 @@ SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Enemies/_Spawning/Slaughters/CO
 
 # TONING DOWN MAYHEM WORLD DROPS (Credit to Apocalyptech)
 
-# Mayhem 1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DropWeightCommonScalar_21_59A2FB124E32B955768A7B9D93C25A99,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DropWeightUncommonScalar_25_809615334E7F0DB3B8712DAC221015C3,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DropWeightRareScalar_27_A09CF5314C51796896A83EA0806C7520,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DropWeightVeryRareScalar_29_F2CA570046CD50A7C514EDB0AE1BE591,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DropWeightLegendaryScalar_31_D9DA03C54065EA981BE218B11942C24E,0,,1
-
-# Mayhem 2
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DropWeightCommonScalar_21_59A2FB124E32B955768A7B9D93C25A99,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DropWeightUncommonScalar_25_809615334E7F0DB3B8712DAC221015C3,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DropWeightRareScalar_27_A09CF5314C51796896A83EA0806C7520,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DropWeightVeryRareScalar_29_F2CA570046CD50A7C514EDB0AE1BE591,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DropWeightLegendaryScalar_31_D9DA03C54065EA981BE218B11942C24E,0,,1
-
-# Mayhem 3
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DropWeightCommonScalar_21_59A2FB124E32B955768A7B9D93C25A99,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DropWeightUncommonScalar_25_809615334E7F0DB3B8712DAC221015C3,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DropWeightRareScalar_27_A09CF5314C51796896A83EA0806C7520,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DropWeightVeryRareScalar_29_F2CA570046CD50A7C514EDB0AE1BE591,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DropWeightLegendaryScalar_31_D9DA03C54065EA981BE218B11942C24E,0,,1
-
-# Mayhem 4
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DropWeightCommonScalar_21_59A2FB124E32B955768A7B9D93C25A99,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DropWeightUncommonScalar_25_809615334E7F0DB3B8712DAC221015C3,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DropWeightRareScalar_27_A09CF5314C51796896A83EA0806C7520,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DropWeightVeryRareScalar_29_F2CA570046CD50A7C514EDB0AE1BE591,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DropWeightLegendaryScalar_31_D9DA03C54065EA981BE218B11942C24E,0,,1
-
-# Mayhem 5
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DropWeightCommonScalar_21_59A2FB124E32B955768A7B9D93C25A99,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DropWeightUncommonScalar_25_809615334E7F0DB3B8712DAC221015C3,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DropWeightRareScalar_27_A09CF5314C51796896A83EA0806C7520,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DropWeightVeryRareScalar_29_F2CA570046CD50A7C514EDB0AE1BE591,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DropWeightLegendaryScalar_31_D9DA03C54065EA981BE218B11942C24E,0,,1
-
-# Mayhem 6
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DropWeightCommonScalar_21_59A2FB124E32B955768A7B9D93C25A99,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DropWeightUncommonScalar_25_809615334E7F0DB3B8712DAC221015C3,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DropWeightRareScalar_27_A09CF5314C51796896A83EA0806C7520,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DropWeightVeryRareScalar_29_F2CA570046CD50A7C514EDB0AE1BE591,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DropWeightLegendaryScalar_31_D9DA03C54065EA981BE218B11942C24E,0,,1
-
-# Mayhem 7
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DropWeightCommonScalar_21_59A2FB124E32B955768A7B9D93C25A99,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DropWeightUncommonScalar_25_809615334E7F0DB3B8712DAC221015C3,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DropWeightRareScalar_27_A09CF5314C51796896A83EA0806C7520,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DropWeightVeryRareScalar_29_F2CA570046CD50A7C514EDB0AE1BE591,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DropWeightLegendaryScalar_31_D9DA03C54065EA981BE218B11942C24E,0,,1
-
-# Mayhem 8
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DropWeightCommonScalar_21_59A2FB124E32B955768A7B9D93C25A99,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DropWeightUncommonScalar_25_809615334E7F0DB3B8712DAC221015C3,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DropWeightRareScalar_27_A09CF5314C51796896A83EA0806C7520,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DropWeightVeryRareScalar_29_F2CA570046CD50A7C514EDB0AE1BE591,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DropWeightLegendaryScalar_31_D9DA03C54065EA981BE218B11942C24E,0,,1
-
-# Mayhem 9
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DropWeightCommonScalar_21_59A2FB124E32B955768A7B9D93C25A99,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DropWeightUncommonScalar_25_809615334E7F0DB3B8712DAC221015C3,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DropWeightRareScalar_27_A09CF5314C51796896A83EA0806C7520,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DropWeightVeryRareScalar_29_F2CA570046CD50A7C514EDB0AE1BE591,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DropWeightLegendaryScalar_31_D9DA03C54065EA981BE218B11942C24E,0,,1
-
-# Mayhem 10
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DropWeightCommonScalar_21_59A2FB124E32B955768A7B9D93C25A99,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DropWeightUncommonScalar_25_809615334E7F0DB3B8712DAC221015C3,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DropWeightRareScalar_27_A09CF5314C51796896A83EA0806C7520,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DropWeightVeryRareScalar_29_F2CA570046CD50A7C514EDB0AE1BE591,0,,1
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DropWeightLegendaryScalar_31_D9DA03C54065EA981BE218B11942C24E,0,,1
 
 
 
